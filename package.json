@@ -1,0 +1,21 @@
+{
+  "name": "aaesrl-ai-bot",
+  "version": "20.0.0",
+  "description": "AAESRL AI Discord Bot - Fixed Vision & ImageGen",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node --expose-gc --max-old-space-size=256 bot.js",
+    "dev": "nodemon --expose-gc --max-old-space-size=256 bot.js"
+  },
+  "keywords": ["discord", "bot", "ai", "groq"],
+  "author": "Aaesrl Dev Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
